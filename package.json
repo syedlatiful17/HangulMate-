@@ -11,12 +11,16 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.119.2",
     "expo": "*",
-    "expo-sqlite": "*",
     "expo-speech": "*",
+    "expo-sqlite": "*",
     "expo-status-bar": "*",
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-url-polyfill": "^4.0.0"
   },
   "devDependencies": {
     "@types/react": "*",

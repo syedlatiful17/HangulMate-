@@ -51,6 +51,7 @@ export default function App() {
   const [streak, setStreak] = useState(1);
   const [mistakes, setMistakes] = useState<string[]>([]);
   const [cardIndex, setCardIndex] = useState(0);
+  
   const [flipped, setFlipped] = useState(false);
   const [query, setQuery] = useState("");
   const [formal, setFormal] = useState(true);
